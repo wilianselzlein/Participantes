@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/01/10 23:41:37.876.pas,D:\Delphi\Participantes\Client\Ufuncoes.pas=</Transaction>
+    <Transaction>2013/02/01 21:46:59.632.pas,C:\Participantes\participantes-code\Client\UGRUPO.pas=C:\Participantes\participantes-code\Client\UCidade.pas</Transaction>
+    <Transaction>2013/02/01 21:46:59.632.dfm,C:\Participantes\participantes-code\Client\UGRUPO.dfm=C:\Participantes\participantes-code\Client\UCidade.dfm</Transaction>
+    <Transaction>2013/02/04 20:32:17.258.dproj,E:\Participantes\participantes-code\Client\Rastro.dproj=E:\Participantes\participantes-code\Client\Client.dproj</Transaction>
+    <Transaction>2013/02/04 21:16:21.400.dfm,E:\Participantes\participantes-code\Client\UTarefa.dfm=E:\Participantes\participantes-code\Client\UParticipante.dfm</Transaction>
+    <Transaction>2013/02/04 21:16:21.400.pas,E:\Participantes\participantes-code\Client\UTarefa.pas=E:\Participantes\participantes-code\Client\UParticipante.pas</Transaction>
+    <Transaction>2013/02/10 18:15:40.495.pas,I:\Participantes\participantes-code\Client\UFuncoes.pas=I:\Participantes\participantes-code\Client\Unit1.pas</Transaction>
+    <Transaction>2013/04/04 16:38:28.000.023,=D:\Wilian\Participantes\participantes-code\Client\Unit1.pas</Transaction>
+    <Transaction>2013/04/04 16:38:58.000.366,D:\Wilian\Participantes\participantes-code\Client\Unit1.pas=D:\Wilian\Participantes\participantes-code\Client\UServerMethodsClient.pas</Transaction>
+  </Transactions>
+</BorlandProject>

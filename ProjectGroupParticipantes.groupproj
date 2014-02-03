@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{35793CA2-4861-42E5-8CD5-5ACE3897299F}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Server\Server.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Client\Rastro.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Client\Client.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Server">
+			<MSBuild Projects="Server\Server.dproj"/>
+		</Target>
+		<Target Name="Server:Clean">
+			<MSBuild Targets="Clean" Projects="Server\Server.dproj"/>
+		</Target>
+		<Target Name="Server:Make">
+			<MSBuild Targets="Make" Projects="Server\Server.dproj"/>
+		</Target>
+		<Target Name="Rastro">
+			<MSBuild Projects="Client\Rastro.dproj"/>
+		</Target>
+		<Target Name="Rastro:Clean">
+			<MSBuild Targets="Clean" Projects="Client\Rastro.dproj"/>
+		</Target>
+		<Target Name="Rastro:Make">
+			<MSBuild Targets="Make" Projects="Client\Rastro.dproj"/>
+		</Target>
+		<Target Name="Client">
+			<MSBuild Projects="Client\Client.dproj"/>
+		</Target>
+		<Target Name="Client:Clean">
+			<MSBuild Targets="Clean" Projects="Client\Client.dproj"/>
+		</Target>
+		<Target Name="Client:Make">
+			<MSBuild Targets="Make" Projects="Client\Client.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Server;Rastro;Client"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Server:Clean;Rastro:Clean;Client:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Server:Make;Rastro:Make;Client:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

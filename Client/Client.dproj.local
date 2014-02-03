@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/01/10 23:41:37.876.pas,D:\Delphi\Participantes\Client\Ufuncoes.pas=</Transaction>
+    <Transaction>2013/02/01 21:46:59.632.dfm,C:\Participantes\participantes-code\Client\UCidade.dfm=C:\Participantes\participantes-code\Client\UGRUPO.dfm</Transaction>
+    <Transaction>2013/02/01 21:46:59.632.pas,C:\Participantes\participantes-code\Client\UCidade.pas=C:\Participantes\participantes-code\Client\UGRUPO.pas</Transaction>
+    <Transaction>2013/02/12 21:20:14.265.pas,C:\Participantes\participantes-code\Client\Unit1.pas=C:\Participantes\participantes-code\Client\UPesqAvancada.pas</Transaction>
+    <Transaction>2013/02/12 21:20:14.265.dfm,C:\Participantes\participantes-code\Client\Unit1.dfm=C:\Participantes\participantes-code\Client\UPesqAvancada.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
